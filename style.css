@@ -1,0 +1,642 @@
+body {
+  padding: 0px 60px;
+  width: auto;
+}
+
+
+
+.navbar {
+  background-color: white;
+}
+
+.navBarConatiner {
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.navMiddle {
+  margin: 0px 15px;
+}
+
+.navRight {
+  margin: 0px 15px;
+}
+
+.signUpButton {
+  width: 120px;
+  background-color: #7083f5;
+  color: white;
+  padding: 7px;
+  border-style: none;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.pagesStyle {
+  color: "blue";
+}
+
+
+.homeContainer {
+  margin: 50px 0px;
+  padding-top: 50px;
+}
+
+.homeTextView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeText {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 540px;
+}
+
+.homeMainText {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.homeMainTextTheme {
+  background: -webkit-linear-gradient(#8ea5fe, #90d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.homeMainText-1 {
+  color: "#282c40";
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.homeMainText-2 {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.iconView {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-apple {
+  width: "50%";
+}
+
+.audioPlayerBtnView {
+  display: flex;
+  flex-direction: row;
+}
+
+.audioPlayerBtn {
+  margin-left: 40px;
+}
+
+.audioPlayerBtn:hover {
+  color: #8ea5fe;
+}
+
+.circle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(209, 209, 209);
+  background-color: white;
+  margin-right: 10px;
+}
+
+.circle-icon-text {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.phoneView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.featureView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.featureTextView {
+  width: 690px;
+  text-align: center;
+}
+
+.featureMainText-1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.featureMainText-2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+}
+
+.cardContainer {
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 100px;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  border: none;
+}
+
+.card-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.card-text-1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text-2 {
+  font-size: 18px;
+  color: gray;
+}
+
+.cardIcon {
+  color: #8ea5fe;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cardIcon:hover {
+  background-color: #8ea5fe;
+  color: white;
+}
+
+.trackText {
+  width: 480px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.track-Text-1 {
+  font-weight: bold;
+  color: #7083f5;
+}
+
+.track-Text-2 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.track-Text-3 {
+  color: grey;
+  font-size: 18px;
+}
+
+.track-1 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.track-1-Text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.audienceReportTextView {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.audienceReportText {
+  width: 510px;
+}
+
+.knowMoreBtn {
+  width: 150px;
+  background-color: #7083f5;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.switchView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  display: flex;
+  margin: 0px 20px;
+  font-size: 18px;
+}
+
+.priceCardView {
+  padding: 40px;
+  margin-bottom: 100px;
+  margin: 70px 0px 100px 0px;
+}
+
+.priceCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardView {
+  width: 330px;
+  padding: 40px 36px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.headerDescription {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.priceView {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-amount {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.monthText {
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.separation-line {
+  color: gray;
+}
+
+.bullet-list {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 18px;
+}
+
+.bullet-list li {
+  margin-bottom: 5px;
+}
+
+.bullet-list li:before {
+  content: "\2713";
+  color: #28a745;
+  margin-right: 5px;
+}
+
+.carouselView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.downloadTextView {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.downloadText {
+  margin-left: 70px;
+  width: 530px;
+}
+
+.testimonialMainView-1 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.testimonialMainView-2 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+
+.testimonialView {
+  width: 520px;
+  padding: 36px 28px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 20px;
+}
+
+.profileView {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.profileImg {
+  width: 56px;
+  height: 56px;
+  border-radius: "50%";
+  margin-right: 10px;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordianMainView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.accordianView {
+  width: 790px;
+}
+
+.accordionBtnMainText {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.accordionBtnDisText {
+  font-size: 18px;
+  color: gray;
+}
+
+.newsView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.card-text {
+  color: gray;
+}
+
+.logoView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoMainView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  margin: 20px 30px;
+}
+
+.logoDetails {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.formView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formMainView {
+  width: 900px;
+  height: 550px;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #f8fafb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 150px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 350px;
+  height: 60px;
+  padding: 16px 30px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 16px 30px;
+  border-style: none;
+}
+
+.formConditionTextView {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formConditionText {
+  font-size: 20px;
+  color: gray;
+}
+
+.contactUsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logoView {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.companyLogo {
+  margin-bottom: 40px;
+}
+
+.detailText {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.companyDetailView {
+  margin-bottom: 100px;
+}
+
+.detailMainTextContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detailMainTextView {
+  margin: 5px 0px;
+}
+
+.detailMainText {
+  font-size: 18px;
+  color: gray;
+}
+
+.detailMainText:hover {
+  color: #7083f5;
+  cursor: pointer;
+}
+
+.footer{
+  width: auto;
+}
+
+
+.footerView {
+  background-color: #7083f5;
+  padding: 20px;
+  /* width: 160vw; */
+  width: auto;
+}
+
+.footerLeft {
+  font-size: 18px;
+  color: white;
+}
+
+.footer-middle {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-icons-view {
+  margin: 0px 20px;
+}
+
+.privacyPolicyView {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.footer-container{
+  display: none;
+}
+@media (max-width: 767px) {
+.homeTextView{
+  display: inline;
+  width: auto;
+}
+#mainImg{
+  margin-left: 90px;
+}
+.featureView,.cardContainer,.trackContainer,.audienceReportContainer,.switchView,.companyDetailView,.priceCardView,.newsView,.carouselView,.testimonial,.accordianMainView{
+  width: 190%;
+}
+.logoMainView{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.social-icons a{
+  color: #fff;
+}
+
+.links a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerView{
+  display: none;
+}
+
+}
